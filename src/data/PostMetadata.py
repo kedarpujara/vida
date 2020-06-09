@@ -8,7 +8,7 @@ class PostMetadata(mongoengine.EmbeddedDocument):
     album = mongoengine.StringField()
     podcast = mongoengine.StringField()
     post_type = mongoengine.IntField()
-    genre = mongoengine.StringField() # if its a song
+    genre = mongoengine.StringField()
     length_in_sec = mongoengine.FloatField()
-    date_posted = mongoengine.DateTimeField(default=datetime.datetime.now())
+    date_posted = mongoengine.DateTimeField(default=datetime.datetime.now)
     upvotes = mongoengine.IntField()

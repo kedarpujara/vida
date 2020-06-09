@@ -12,7 +12,8 @@ from data.PostType import PostType
 
 def create_account(name: str, email: str) -> User:
     user = User()
-    user.name = name
+    user.first_name = name
+    user.last_name = name
     user.email = email
     user.save()
     return user

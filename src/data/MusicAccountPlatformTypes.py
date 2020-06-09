@@ -1,7 +1,7 @@
 import enum
 
 
-class MusicAccountPlatformTypes(enum):
+class MusicAccountPlatformTypes(enum.Enum):
     SPOTIFY = 0
     APPLE_MUSIC = 1
     SOUNDCLOUD = 2
