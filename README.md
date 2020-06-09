@@ -1,2 +1,2 @@
 # vida
-viva la vida 
+discover music 
