@@ -1,6 +1,6 @@
 import data.mongo_setup as mongo_setup
 from colorama import Fore
-import program_hosts
+import program_users
 
 
 def main():
@@ -10,7 +10,7 @@ def main():
 
     try:
         while True:
-            program_hosts.run()
+            program_users.run()
     except KeyboardInterrupt:
         return
 
